@@ -5,7 +5,6 @@ import Marquee from "./components/Marquee";
 import LocomotiveScroll from "locomotive-scroll";
 import Course from "./components/Course";
 import Footer from "./components/Footer";
-import EyeTrackingAnimation from "./components/EyeAnimation";
 import Loader from "./components/Loader";
 
 const App = () => {
@@ -19,7 +18,6 @@ const App = () => {
       <Marquee />
       <Course />
       <Footer />
-      {/* <EyeTrackingAnimation /> */}
     </>
   );
 };
